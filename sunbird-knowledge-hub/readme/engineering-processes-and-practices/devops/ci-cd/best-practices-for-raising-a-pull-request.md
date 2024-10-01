@@ -110,3 +110,10 @@ If you push changes to an already open pull request, CircleCI will detect that t
 **Solution:**
 
 While merging the release branches or any branch, a pull request should be created from the fork repository instead of raising the PR from the same repository.
+
+## Suggested Questions
+
+1. What triggers a CircleCI pipeline according to this document?
+2. Why does opening a pull request not trigger a new CircleCI pipeline?
+3. How is the SonarCloud check satisfied for an open pull request with new changes?
+4. What should be the correct process for merging release branches to ensure SonarCloud analysis runs?

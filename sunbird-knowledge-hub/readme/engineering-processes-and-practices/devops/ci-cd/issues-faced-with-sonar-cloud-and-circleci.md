@@ -44,3 +44,13 @@ Temparory fix:
 **CircleCI not able to checkout public repo:**
 
 Isse refernce and fix: [https://discuss.circleci.com/t/circleci-not-able-to-checkout-public-repo/37202/4](https://discuss.circleci.com/t/circleci-not-able-to-checkout-public-repo/37202/4)
+
+
+
+**Questions based on the article:**
+
+1. What is the temporary fix for triggering CircleCI for a branch merge?
+2. Why is CircleCI unable to checkout a public repository in this context?
+3. What steps can be taken if CircleCI does not trigger for a commit?
+4. How can one reference a fix for CircleCI issues with public repo checkouts?
+5. Where can more information about the CircleCI issue be found?

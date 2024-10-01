@@ -78,3 +78,14 @@ As part of the last step in the CircleCI build, we can comment by constructing t
 * **Commenting on the pull request to approve the CI.**
 
 Triggering the CircleCI build just be commenting on the pull request with specified commands/words.
+
+
+
+#### Questions a DevOps Professional Might Have:
+
+1. How can we ensure the CircleCI build is securely connected to our Jira instance?
+2. What are the security implications of storing Jira credentials in CircleCI?
+3. Can we customize the commands or words that trigger the CircleCI build?
+4. How do we handle failed builds and notify the relevant stakeholders automatically?
+5. Is it possible to integrate other project management tools instead of Jira with CircleCI for similar functionality?
+6. How can we track the execution and performance of these automated comments over time?

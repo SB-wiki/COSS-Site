@@ -1,0 +1,3 @@
+# Page 1
+
+**Digital Public Goods (DPGs)** are open-source software, open data, open AI models, open standards, and open content that adhere to privacy and other applicable best practices and standards. These resources are designed to address global challenges by improving accessibility, transparency, and efficiency in public and private sectors. DPGs can be utilized by governments, organizations, and communities to build sustainable solutions in areas such as education, healthcare, agriculture, and disaster response. By promoting collaboration and innovation, DPGs aim to contribute to equitable development and the achievement of the United Nations' Sustainable Development Goals (SDGs).

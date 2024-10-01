@@ -11,7 +11,7 @@ icon: elementor
 
 Select ADD PROJETS → Select Repo → Set Up Project
 
-![](<../../../../../.gitbook/assets/0 (1).png>)
+![](../../../../../.gitbook/assets/0%20\(1\).png)
 
 1. Add Circleci config file in github Repo
 
@@ -33,3 +33,13 @@ Create a folder named .circleci and add a file config.yml (so that the filepath 
 
 1. Add Environment variables. Environment Variable(under Build Setting) → Add new variable (eg: CODACY\_PROJECT\_TOKEN)
 2. Start Building (Add Projects → Set Up Project → Start Building)
+
+
+
+**Questions to Consider:**
+
+* How can you configure environment variables in the CI platform?
+* What is the purpose of passing secrets to builds from forked pull requests?
+* Which setting should be used to build only pull requests?
+* What steps are involved in starting the build process for a new project?
+* Why is it important to manage secrets when building forked pull requests?

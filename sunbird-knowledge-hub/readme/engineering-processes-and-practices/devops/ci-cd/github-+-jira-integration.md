@@ -40,3 +40,11 @@ You should be able to see the commits, branches, pull requests in the respective
 It will also give information about the PR status whether it is open, merged, closed, or declined.
 
 ![](../../../../../.gitbook/assets/1629159591.png)
+
+#### Questions Based on This Article
+
+1. What are the benefits of linking Jira tickets with GitHub commits and pull requests?
+2. How can you check the status of a pull request directly from a Jira ticket?
+3. Why is it important to use the issue ID in commit messages or pull requests?
+4. What status information about pull requests can be seen in Jira?
+5. How does integrating Jira with GitHub enhance the software development workflow?

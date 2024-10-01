@@ -44,3 +44,14 @@ Add this step in CircleCI by updating all the required parameters.
 Note: If you’re creating a token for `SONAR_TOKEN` env variable in circleci, please make sure, that you(sonar cloud user) has `execute analysis` in [roles](https://sonarcloud.io/organizations/sunbird-ed/permissions)
 
 Ref: [https://community.sonarsource.com/t/error-youre-not-authorized-to-run-analysis-please-contact-the-project-administrator/11979](https://community.sonarsource.com/t/error-youre-not-authorized-to-run-analysis-please-contact-the-project-administrator/11979)
+
+
+
+### Frequently Asked Questions
+
+1. **What is the purpose of the `sonar` step in CircleCI?**
+2. **How can I set the `SONAR_TOKEN` environment variable in CircleCI?**
+3. **What permissions are required for the SonarCloud user to execute the analysis?**
+4. **Where can I specify the project key and organization for SonarCloud analysis?**
+5. **How do I ensure that the coverage report paths are correctly set for SonarQube analysis?**
+6. **What should I do if I encounter authorization errors during analysis?**

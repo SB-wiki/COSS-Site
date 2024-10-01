@@ -16,18 +16,13 @@ open browser → localhost:9000 → click on `login`
 
 initial _username_ and _password_ will be **`admin`**
 
-\
-
+\\
 
 Click on the `create new project`
-
-
 
 <figure><img src="../../../../../.gitbook/assets/image001.png" alt=""><figcaption></figcaption></figure>
 
 Give a name for your project and click `setup`
-
-
 
 <figure><img src="../../../../../.gitbook/assets/image003.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,8 +32,6 @@ Generate a token
 
 Select your language
 
-
-
 <figure><img src="../../../../../.gitbook/assets/image007.png" alt=""><figcaption></figcaption></figure>
 
 copy the above command and run it in your project(above example is for maven projects)
@@ -47,12 +40,9 @@ After that you should see something like this, if your project is analysed prope
 
 Note: you might have to refresh the page
 
-
-
 <figure><img src="../../../../../.gitbook/assets/image011.png" alt=""><figcaption></figcaption></figure>
 
-\
-
+\\
 
 If you want to export a specific coverage report
 
@@ -66,18 +56,19 @@ mvn verify sonar:sonar \
 
 **Adding SonarCloud Badge in the Github Repo:**
 
-
-
 <figure><img src="../../../../../.gitbook/assets/image012.jpg" alt=""><figcaption></figcaption></figure>
 
 Click on **Get project badges**
-
-
 
 <figure><img src="../../../../../.gitbook/assets/image013.png" alt=""><figcaption></figcaption></figure>
 
 Copy the URL and paste it in the Github repository README file.
 
-
-
 <figure><img src="../../../../../.gitbook/assets/image016.jpg" alt=""><figcaption></figcaption></figure>
+
+#### Suggested Questions for DevOps Professionals
+
+* What is the purpose of clicking on "Get project badges" in a GitHub repository?
+* How can project badges enhance the readability of a GitHub README file?
+* What types of badges can be added to a project, and what information do they convey?
+* Are there automated tools or scripts that can help manage and update badges in a repository?

@@ -45,3 +45,13 @@ WITH rc(schema\_name,tbl) AS ( select s.n,rowcount\_all(s.n) from (values ('publ
 ***
 
 \[\[category.storage-team]] \[\[category.confluence]]
+
+#### Potential Questions from Tech Professionals
+
+1. What are the specific steps to connect to a Postgres database using `psql`?
+2. Why is it necessary to verify table counts in a hosted service?
+3. How does the `WITH` clause in the provided query contribute to the final result?
+4. Can you provide examples of other useful `psql` commands for database management?
+5. What types of errors might occur when running the `psql` command and how can they be resolved?
+6. How does the function `rowcount_all` work and what are its potential use cases?
+7. Are there alternative methods to verify table counts aside from the provided SQL query?
