@@ -92,3 +92,14 @@ The DPGA registry plays a pivotal role in the global movement for standardized D
 6\) How can standardized DPGs and toolkits contribute to achieving global development goals?
 
 Standardized Digital Public Goods (DPGs) and toolkits contribute to achieving global development goals by providing scalable and interoperable solutions that can be tailored to meet diverse regional needs. They promote efficiency, reduce costs, and ensure equitable access to technology, thus aiding in addressing challenges such as poverty, health, education, and sustainability. By adhering to international standards, they foster collaboration and innovation, paving the way for comprehensive and sustainable development.
+
+
+
+**Questions**
+
+1. What is the DPGA registry?
+2. How does the DPGA registry contribute to the standardization of Digital Public Goods?
+3. Why is it important to have a centralized repository for DPGs?
+4. What role does the DPGA registry play in fostering transparency and accountability?
+5. How do standardized DPGs help in achieving global development goals?
+6. What are the benefits of using standardized DPGs and toolkits?

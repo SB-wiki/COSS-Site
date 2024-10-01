@@ -62,7 +62,7 @@ The Sunbird community is growing with adoption and contributions from various in
 
 The Sunbird family of digital public goods that act as building blocks to create solutions and DPIs in skilling and education are described below (also see [sunbird.org](https://sunbird.org/sunbird.org))
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20\(4\).png)
 
 **VISION**
 
@@ -81,3 +81,13 @@ These, when followed rigorously, ensure there are appropriate guard-rails laid o
 DPG/ DPI is now seeing a global movement with the establishment of the [DPGA registry](https://digitalpublicgoods.net/registry/), which has amplified efforts towards creation of standardized DPGs and toolkits to catalyze the efforts aimed at achieving global development goals.
 
 \-**EkStep Foundation 2023**
+
+
+
+#### Questions
+
+1. What are the core principles that underpin effective digital public infrastructure?
+2. How do enabling policies and frameworks contribute to data privacy and individual rights?
+3. What is the importance of federated digital public infrastructure in modern ecosystems?
+4. How does the DPGA registry support the creation and standardization of Digital Public Goods (DPGs)?
+5. What role does EkStep Foundation play in the global movement towards standardized DPGs?
