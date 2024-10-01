@@ -6,8 +6,7 @@ icon: folder-open
 
 ### DevOps Tools to manage infra and application life-cycle <a href="#tools-devopstoolstomanageinfraandapplicationlife-cycle" id="tools-devopstoolstomanageinfraandapplicationlife-cycle"></a>
 
-\
-
+\\
 
 <figure><img src="../../../../../../.gitbook/assets/Tools.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,13 +36,13 @@ icon: folder-open
 
 ### Recommendations <a href="#tools-recommendations" id="tools-recommendations"></a>
 
-* ### [Istio](broken-reference) <a href="#tools-istioistio_1093238863.html" id="tools-istioistio_1093238863.html"></a>
-* ### [Helm](broken-reference) <a href="#tools-helmhelm_1093238901.html" id="tools-helmhelm_1093238901.html"></a>
-* ### [Rancher](broken-reference) <a href="#tools-rancherrancher_1093173469.html" id="tools-rancherrancher_1093173469.html"></a>
+* #### [Istio](broken-reference/) <a href="#tools-istioistio_1093238863.html" id="tools-istioistio_1093238863.html"></a>
+* #### [Helm](broken-reference/) <a href="#tools-helmhelm_1093238901.html" id="tools-helmhelm_1093238901.html"></a>
+* #### [Rancher](broken-reference/) <a href="#tools-rancherrancher_1093173469.html" id="tools-rancherrancher_1093173469.html"></a>
 
 ### Tools of Interest <a href="#tools-toolsofinterest" id="tools-toolsofinterest"></a>
 
-* ### [Knative](broken-reference) <a href="#tools-knativeknative_1093271690.html" id="tools-knativeknative_1093271690.html"></a>
-* ### [Spinnaker](broken-reference) <a href="#tools-spinnakerspinnaker_1093206199.html" id="tools-spinnakerspinnaker_1093206199.html"></a>
-* ### [Jenkins X and Tekton](broken-reference) <a href="#tools-jenkinsxandtektonjenkins-x-and-tekton_1096646801.html" id="tools-jenkinsxandtektonjenkins-x-and-tekton_1096646801.html"></a>
-* ### Rio <a href="#tools-rio" id="tools-rio"></a>
+* #### [Knative](broken-reference/) <a href="#tools-knativeknative_1093271690.html" id="tools-knativeknative_1093271690.html"></a>
+* #### [Spinnaker](broken-reference/) <a href="#tools-spinnakerspinnaker_1093206199.html" id="tools-spinnakerspinnaker_1093206199.html"></a>
+* #### [Jenkins X and Tekton](broken-reference/) <a href="#tools-jenkinsxandtektonjenkins-x-and-tekton_1096646801.html" id="tools-jenkinsxandtektonjenkins-x-and-tekton_1096646801.html"></a>
+* #### Rio <a href="#tools-rio" id="tools-rio"></a>

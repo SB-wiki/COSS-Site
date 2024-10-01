@@ -28,12 +28,12 @@ This document contains details about the older v1 templates available in ekstep.
    7. Enter the question text, the question text may be the title for the question or may be the question itself.
    8. Enter the answer text, the answer text can be single or multiple
    9. It may have the additional Model field to be filled for some templates.
-   10. For some templates, the questions and answers can be generated randomly.&#x20;
+   10. For some templates, the questions and answers can be generated randomly.
    11. For MTF,
    12. Enter the question text, the question text may be the title for the question or may be the question itself.
    13. Enter the answer text, the answer text can be single or multiple
    14. It may have the additional Model field to be filled for some templates.
-   15. For some templates, the questions and answers can be generated randomly.&#x20;
+   15. For some templates, the questions and answers can be generated randomly.
 6. Click on "save" and "save & create another"
 7. The created question will be available in the question bank.
 
@@ -86,53 +86,53 @@ This document contains details about the older v1 templates available in ekstep.
 * Inside content-player → player → public → fixture-stories, Add your template folder containing (index.ecml, assets etc)
 * Inside content-player → player → app-data → fixture-content-list.json, Add the below object structure to the json object result → contnet
 
-&#x20;                   {
+{
 
-&#x20;                        "identifier": "template-name",
+"identifier": "template-name",
 
-&#x20;                        "mimeType": "application/vnd.ekstep.ecml-archive",
+"mimeType": "application/vnd.ekstep.ecml-archive",
 
-&#x20;                        "localData": {
+"localData": {
 
-&#x20;                                   "questionnaire": null,
+"questionnaire": null,
 
-&#x20;                                    "appIcon": "fixture-stories/template\_folder\_name/logo.png",
+"appIcon": "fixture-stories/template\_folder\_name/logo.png",
 
-&#x20;                                    "subject": "literacy\_v2",
+"subject": "literacy\_v2",
 
-&#x20;                                    "description": "epub - Beyond Good and Evil",
+"description": "epub - Beyond Good and Evil",
 
-&#x20;                                    "name": "Custom Eval",
+"name": "Custom Eval",
 
-&#x20;                                    "downloadUrl": "",
+"downloadUrl": "",
 
-&#x20;                                    "checksum": null,
+"checksum": null,
 
-&#x20;                                    "loadingMessage": "Without requirements or design, programming is the art of adding bugs to an empty text file. ...",
+"loadingMessage": "Without requirements or design, programming is the art of adding bugs to an empty text file. ...",
 
-&#x20;                                    "concepts": \[{
+"concepts": \[{
 
-&#x20;                                                    "identifier": "LO1",
+"identifier": "LO1",
 
-&#x20;                                                    "name": "Receptive Vocabulary",
+"name": "Receptive Vocabulary",
 
-&#x20;                                                    "objectType": "Concept"
+"objectType": "Concept"
 
-&#x20;                                       }],
+}],
 
-&#x20;                                    "identifier": "org.ekstep.customeval",
+"identifier": "org.ekstep.customeval",
 
-&#x20;                                    "grayScaleAppIcon": null,
+"grayScaleAppIcon": null,
 
-&#x20;                                    "pkgVersion": 1
+"pkgVersion": 1
 
-&#x20;                         },
+},
 
-&#x20;                        "isAvailable": true,
+"isAvailable": true,
 
-&#x20;                        "path": "fixture-stories/custom\_eval"
+"path": "fixture-stories/custom\_eval"
 
-&#x20;             },
+},
 
 * In the browser, click on the template logo you added for the template, the player will show the template, If the ECML is valid.
 * Inside content-player → player, Open command prompt and type "node app.js" and press enter.
@@ -154,17 +154,12 @@ This document contains details about the older v1 templates available in ekstep.
 * **Assets** folder contains images required for the template
 * **Widgets** folder contains additional js and css required for the template
 * **Items** folder contains assessment.json file which is used by the template
-*   **index.ecml** contains the ECML for the template. The basic structure of the template is&#x20;
-
-    *
-
-    &#x20;         &#x20;
+* **index.ecml** contains the ECML for the template. The basic structure of the template is
+  *
 
 ```
        <param name="next" value="stage1"/>
 ```
-
-&#x20;     &#x20;
 
 ```
             <embed template="item" var-item="item"/>
@@ -193,7 +188,7 @@ This document contains details about the older v1 templates available in ekstep.
 ```
 
 * **Tags used in ECML**
-  * theme -  Which is the entry point of the ecml. It should specify the id as theme and the stage which is to be rendered first.
+  * theme - Which is the entry point of the ecml. It should specify the id as theme and the stage which is to be rendered first.
   * manifest - it contains the media tags of medias(images, audio), js and css files used inside the template
   * media - it is used to include the medias(images, audio), js and css files used inside the template
   * stage - this tag specifies each screen inside the renderer. One can add multiple stages. The start stage should be "splash" and should be included in the theme tag. If you want to include the json add attribute iterate and var = item
@@ -220,93 +215,93 @@ This document contains details about the older v1 templates available in ekstep.
 
     "item\_sets": \[{
 
-    &#x20;        "id": "set\_1",
+    "id": "set\_1",
 
-    &#x20;        "count": 1
+    "count": 1
 
     }],
 
     "items": {
 
-    &#x20;        "set\_1": \[{
+    "set\_1": \[{
 
-    &#x20;        "identifier": "protractor.que1",
+    "identifier": "protractor.que1",
 
-    &#x20;        "qid": "protractor.que1",
+    "qid": "protractor.que1",
 
-    &#x20;        "type": "MCQ",
+    "type": "MCQ",
 
-    &#x20;         "template\_id": "template\_name",
+    "template\_id": "template\_name",
 
-    &#x20;         "template": "template\_name",
+    "template": "template\_name",
 
-    &#x20;         "title": "Question text here",
+    "title": "Question text here",
 
-    &#x20;         "question\_audio": "",
+    "question\_audio": "",
 
-    &#x20;         "question": "Question\_title",
+    "question": "Question\_title",
 
-    &#x20;         "model" : {
+    "model" : {
 
-    &#x20;                   "angleRange":"0-180" // for example, and it can be anything depands on the model
+    "angleRange":"0-180" // for example, and it can be anything depands on the model
 
-    &#x20;         },
+    },
 
-    &#x20;        "question\_image": "angle\_img",
+    "question\_image": "angle\_img",
 
-    &#x20;        "options": \[{
+    "options": \[{
 
-    &#x20;               "value": {
+    "value": {
 
-    &#x20;                     "type": "mixed",
+    "type": "mixed",
 
-    &#x20;                     "text": "120",
+    "text": "120",
 
-    &#x20;                     "audio": "",
+    "audio": "",
 
-    &#x20;                     "image": "",
+    "image": "",
 
-    &#x20;                     "asset": ""
+    "asset": ""
 
-    &#x20;               }
+    }
 
-    &#x20;        }, {
+    }, {
 
-    &#x20;        "value": {
+    "value": {
 
-    &#x20;                    "type": "mixed",
+    "type": "mixed",
 
-    &#x20;                    "text": "180",
+    "text": "180",
 
-    &#x20;                     "audio": "",
+    "audio": "",
 
-    &#x20;                     "image": "",
+    "image": "",
 
-    &#x20;                     "asset": ""
+    "asset": ""
 
-    &#x20;                    }
+    }
 
-    &#x20;        },{
+    },{
 
-    &#x20;       "value": {
+    "value": {
 
-    &#x20;                     "type": "mixed",
+    "type": "mixed",
 
-    &#x20;                     "text": "75",
+    "text": "75",
 
-    &#x20;                    "audio": "",
+    "audio": "",
 
-    &#x20;                    "image": "",
+    "image": "",
 
-    &#x20;                    "asset": ""
+    "asset": ""
 
-    &#x20;                },
+    },
 
-    &#x20;                "answer": true
+    "answer": true
 
-    &#x20;         }]
+    }]
 
-    &#x20;     }
+    }
 
     }
 
@@ -327,51 +322,51 @@ This document contains details about the older v1 templates available in ekstep.
 
     "item\_sets": \[{
 
-    &#x20;        "id": "set\_1",
+    "id": "set\_1",
 
-    &#x20;        "count": 1
+    "count": 1
 
     }],
 
     "items": {
 
-    &#x20;        "set\_1": \[{
+    "set\_1": \[{
 
-    &#x20;        "identifier": "protractor.que1",
+    "identifier": "protractor.que1",
 
-    &#x20;        "qid": "protractor.que1",
+    "qid": "protractor.que1",
 
-    &#x20;        "type": "MCQ",
+    "type": "MCQ",
 
-    &#x20;         "template\_id": "template\_name",
+    "template\_id": "template\_name",
 
-    &#x20;         "template": "template\_name",
+    "template": "template\_name",
 
-    &#x20;         "title": "Question text here",
+    "title": "Question text here",
 
-    &#x20;         "question\_audio": "",
+    "question\_audio": "",
 
-    &#x20;         "question": "Question\_title",
+    "question": "Question\_title",
 
-    &#x20;         "model: {
+    "model: {
 
-    &#x20;               "keys": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+    "keys": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
 
-    &#x20;         },
+    },
 
-    &#x20;        "answer":  {
+    "answer": {
 
-    &#x20;               "ans1": {
+    "ans1": {
 
-    &#x20;                        "value": "जजज",
+    "value": "जजज",
 
-    &#x20;                        "score": 1
+    "score": 1
 
-    &#x20;                }
+    }
 
-    &#x20;           }
+    }
 
-    &#x20;     }
+    }
 
     }
 
@@ -392,117 +387,117 @@ This document contains details about the older v1 templates available in ekstep.
 
     "item\_sets": \[{
 
-    &#x20;        "id": "set\_1",
+    "id": "set\_1",
 
-    &#x20;        "count": 1
+    "count": 1
 
     }],
 
     "items": {
 
-    &#x20;        "set\_1": \[{
+    "set\_1": \[{
 
-    &#x20;        "identifier": "protractor.que1",
+    "identifier": "protractor.que1",
 
-    &#x20;        "qid": "protractor.que1",
+    "qid": "protractor.que1",
 
-    &#x20;        "type": "MCQ",
+    "type": "MCQ",
 
-    &#x20;         "template\_id": "template\_name",
+    "template\_id": "template\_name",
 
-    &#x20;         "template": "template\_name",
+    "template": "template\_name",
 
-    &#x20;         "title": "Question text here",
+    "title": "Question text here",
 
-    &#x20;         "question\_audio": "",
+    "question\_audio": "",
 
-    &#x20;         "question": "Question\_title",
+    "question": "Question\_title",
 
-    &#x20;         "model" : {
+    "model" : {
 
-    &#x20;                   "angleRange":"0-180" // for example, and it can be anything depands on the model
+    "angleRange":"0-180" // for example, and it can be anything depands on the model
 
-    &#x20;         },
+    },
 
-    &#x20;        "question\_image": "angle\_img",
+    "question\_image": "angle\_img",
 
-    &#x20;       "lhs\_options": \[{
+    "lhs\_options": \[{
 
-    &#x20;            "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
+    "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
 
-    &#x20;            "index": 0
+    "index": 0
 
-    &#x20;          }, {
+    }, {
 
-    &#x20;             "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
+    "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
 
-    &#x20;             "index": 1
+    "index": 1
 
-    &#x20;         }, {
+    }, {
 
-    &#x20;              "value": { "type": "mixed", "audio": "", "image": "", "text": "3" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "3" },
 
-    &#x20;              "index": 2
+    "index": 2
 
-    &#x20;         }, {
+    }, {
 
-    &#x20;            "value": { "type": "mixed", "audio": "", "image": "", "text": "4" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "4" },
 
-    &#x20;            "index": 3
+    "index": 3
 
-    &#x20;        }, {
+    }, {
 
-    &#x20;           "value": { "type": "mixed", "audio": "", "image": "", "text": "5" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "5" },
 
-    &#x20;            "index": 4
+    "index": 4
 
-    &#x20;        }, {
+    }, {
 
-    &#x20;           "value": { "type": "mixed", "audio": "", "image": "", "text": "6" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "6" },
 
-    &#x20;           "index": 5
+    "index": 5
 
-    &#x20; }],
+    }],
 
     "rhs\_options": \[{
 
-    &#x20;         "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
+    "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
 
-    &#x20;          "answer": 0
+    "answer": 0
 
-    &#x20;     }, {
+    }, {
 
-    &#x20;          "value": { "type": "mixed", "audio": "", "image": "", "text": "the" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "the" },
 
-    &#x20;          "answer": 1
+    "answer": 1
 
-    &#x20;    }, {
+    }, {
 
-    &#x20;         "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
+    "value": { "type": "mixed", "audio": "", "image": "home", "text": "" },
 
-    &#x20;         "answer": 2
+    "answer": 2
 
-    &#x20;   } ,{
+    } ,{
 
-    &#x20;         "value": { "type": "mixed", "audio": "", "image": "", "text": "the" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "the" },
 
-    &#x20;         "answer": 3
+    "answer": 3
 
-    &#x20;   }, {
+    }, {
 
-    &#x20;         "value": { "type": "mixed", "audio": "", "image": "", "text": "school" },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "school" },
 
-    &#x20;         "answer": 4
+    "answer": 4
 
-    &#x20;   }, {
+    }, {
 
-    &#x20;        "value": { "type": "mixed", "audio": "", "image": "", "text": "team." },
+    "value": { "type": "mixed", "audio": "", "image": "", "text": "team." },
 
-    &#x20;       "answer": 5
+    "answer": 5
 
-    &#x20;   }],
+    }],
 
-    &#x20;  }
+    }
 
     }
 

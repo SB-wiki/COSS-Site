@@ -33,7 +33,7 @@ Body can contain following types of HTML elements:
 
     * and
     *
-    * Media elements like , and&#x20;
+    * Media elements like , and
     * Input elements like text input, text area, select, options, check box, radio buttons, file upload and canvas elements
 
     In addition to the standard HTML elements and attributes, **body** can also contain the following:
@@ -85,7 +85,7 @@ Body can contain following types of HTML elements:
 
     QuML player should provide the implementation for all the defined interaction types. QuML player should capture the response provided by the user for the interactions within the question and bind them with the specified response variables.
 
-    Response VariablesResponse variables are used to capture the response of a user. Each response variable declared may be bound to one & only one interaction and defined using the html data attribute:  **“data-response-variable”** .
+    Response VariablesResponse variables are used to capture the response of a user. Each response variable declared may be bound to one & only one interaction and defined using the html data attribute: **“data-response-variable”** .
 
     ```html
     <input type="text" name="element" data-text-interaction="response_01">
@@ -100,7 +100,7 @@ Body can contain following types of HTML elements:
 
     In the above sample, the response variable “responseValue“ should be set to “1” when user selects this option in a MCQ question. The expected value and the scoring logic for each response variable is declared in the “responseDeclaration” section of the question.
 
-    Asset VariablesAsset variables are used to load assets during the rendering of a question. Values for asset variables refer to an asset in the QuML repository server. Asset variables can be used in a question using the html data attribute:  **“data-asset-variable”** . This data attribute should be set on HTML elements that are used for rendering assets (e.g. img, audio and video elements). And when the question is being rendered, the location of the asset object represented by the asset variable is set as the source of the HTML element on which the asset variable is declared.
+    Asset VariablesAsset variables are used to load assets during the rendering of a question. Values for asset variables refer to an asset in the QuML repository server. Asset variables can be used in a question using the html data attribute: **“data-asset-variable”** . This data attribute should be set on HTML elements that are used for rendering assets (e.g. img, audio and video elements). And when the question is being rendered, the location of the asset object represented by the asset variable is set as the source of the HTML element on which the asset variable is declared.
 
     ```html
     <img src="/assets/public/content/do_21307454512712908814986/artifact/g3c1saq8.jpg" data-asset-variable="do_21307454512712908814986">
@@ -168,7 +168,7 @@ Body can contain following types of HTML elements:
     </div>
     ```
 
-    #### solutions
+    **solutions**
 
     Providing exemplar answers for questions aid candidates in-depth learning and enhance user’s understanding of the concepts. Multiple solutions can be configured for a question.
 
@@ -193,7 +193,7 @@ Body can contain following types of HTML elements:
 
     Solutions HTML must contain only structural and media HTML elements. There should be interactions in a solution and hence no input HTML elements. QuML players should allow the users to view the solutions if the context in which the question is being used allows the users to view the solution.
 
-    #### instructions
+    **instructions**
 
     Instructions on how to understand, attempt or how the question will be evaluated.
 
@@ -217,7 +217,7 @@ Body can contain following types of HTML elements:
 
     Instructions HTML also must contain only structural and media HTML elements. There should be interactions in a solution and hence no input HTML elements.
 
-    #### hints
+    **hints**
 
     ```json
     {
@@ -239,9 +239,9 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### media
+    **media**
 
-    **“media”**  attribute contains information about the assets used in the question. It should have declaration for every asset used in the question across body, feedback, instructions, hints and solutions.
+    **“media”** attribute contains information about the assets used in the question. It should have declaration for every asset used in the question across body, feedback, instructions, hints and solutions.
 
     ```json
     {
@@ -258,7 +258,7 @@ Body can contain following types of HTML elements:
 
     QuML players should use absolute path (baaseUrl + src) of the asset during online usage of the question and in case of offline usage, the asset should be pre-downloaded to the device/system where the question is being used.
 
-    #### interactionTypes
+    **interactionTypes**
 
     List of interactions present in the question body. This list can be null if there are no interactions in the question.
 
@@ -268,7 +268,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### interactions
+    **interactions**
 
     ```
     {
@@ -336,14 +336,14 @@ Body can contain following types of HTML elements:
 
     ```
 
-    #### responseDeclaration
+    **responseDeclaration**
 
-    A  **“responseDeclaration”**  contains information about the response to a question: When is it correct, and (optionally) how is it scored?
+    A **“responseDeclaration”** contains information about the response to a question: When is it correct, and (optionally) how is it scored?
 
     Response Declaration should have declaration for every response variable in the question body. Optionally, the declaration can have the following details:
 
-    * _Correct Response:_  Correct (or optimal) values for the response variable
-    * _Mapping to Score:_  Map different values to score so that a response can have more nuances than plain right or wrong, e.g.: a multiple choice question with more than one correct answer can support partial scoring
+    * _Correct Response:_ Correct (or optimal) values for the response variable
+    * _Mapping to Score:_ Map different values to score so that a response can have more nuances than plain right or wrong, e.g.: a multiple choice question with more than one correct answer can support partial scoring
     * _Hints_ : hints to be shown for this response variable. Hints are shown only if they are allowed in the context where the question is being used.
 
     ```json
@@ -555,7 +555,7 @@ Body can contain following types of HTML elements:
 
     ```
 
-    #### scoringMode
+    **scoringMode**
 
     Scoring mode of the question:
 
@@ -568,7 +568,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### maxScore
+    **maxScore**
 
     Maximum score for the question. Default value will be 1. Creator can update to a higher value. Score for each response mapping should not be greater than this.
 
@@ -578,7 +578,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### timeLimit
+    **timeLimit**
 
     Hard time limit for the question - in seconds. User has to provide response within this time limit.
 
@@ -588,7 +588,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### timer
+    **timer**
 
     Show or hide timer when playing this question.
 
@@ -598,7 +598,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### editorState
+    **editorState**
 
     Used by editors to store question data in a format compatible to the editor.
 
@@ -608,7 +608,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### qumlVersion
+    **qumlVersion**
 
     Version of the QuML used to create the question.
 
@@ -618,7 +618,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### showFeedback
+    **showFeedback**
 
     Display feedback if this flag is set to true
 
@@ -628,7 +628,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    #### showSolutions
+    **showSolutions**
 
     Allow users to view solution if this flag is set to true
 
@@ -638,7 +638,7 @@ Body can contain following types of HTML elements:
     }
     ```
 
-    ### Question Session
+    #### Question Session
 
     A QuML question comprises of multiple components with a well-defined structure. Each component of the question comes into play at different states of a question session. QuML implementations (players) should use these components and perform the required action in-between state transitions. Below are the different states in a question play session:
 
@@ -649,7 +649,7 @@ Body can contain following types of HTML elements:
     * **review** - user is reviewing the responses provided, if the question playing context allows users to review their responses
     * **finished** - response processing is complete and outcomes (SCORE, duration, FEEDBACK to be shown) are computed by the player
 
-    #### State Transitions
+    **State Transitions**
 
     QuML players should do certain actions while transitioning from one state to another:
 
@@ -665,7 +665,7 @@ Body can contain following types of HTML elements:
 
     **finished → review:** should render the question body with user responses.
 
-    #### Outcome Variables
+    **Outcome Variables**
 
     Every question session should compute and set values for certain outcome variables at the end of a question sessions. These outcome variables are used for multiple purposes:
 
